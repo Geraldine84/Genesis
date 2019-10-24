@@ -172,6 +172,7 @@ public class TestUtils extends TestBase {
             process = ProcessHelper.runTimeExec(commandString);
         } catch (IOException e) {
         }
+        System.out.println(commandString);
         BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
         String line;
         while ((line = reader.readLine()) != null) {

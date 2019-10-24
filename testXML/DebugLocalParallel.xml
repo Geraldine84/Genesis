@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BioSmartSuite" parallel="tests" thread-count="3">
+	<parameter name="groupReport" value="/DroidReport.html" />
+	<parameter name="toMails" value="kakaageraldine@gmail.com" />
+	<parameter name="config" value="test.conf.json" />
+	<parameter name="environment" value="chrome" />
+	<parameter name="server" value="local" />
+	<parameter name="dataEnv" value="stagingData" />
+
+	<test name="GenesisDroid" preserve-order="true">
+        <parameter name="systemPort" value="8228"/>
+        <parameter name="deviceNo" value="1"/>
+        <parameter name="deviceName" value="Galaxy J5"/>
+        <classes>
+            <class name="admin.HomeScreen">
+                <methods>
+                    <include name="assertWelcomePage"/>
+                    <include name="viewSpecialOrders"/>
+                    <include name="viewVariousMenus"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+   
+</suite>
