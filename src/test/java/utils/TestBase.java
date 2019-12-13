@@ -140,7 +140,7 @@ public class TestBase {
     @Parameters("toMails")
     public void cleanup(String toMails) {
         toAddress = toMails;
-        SendMail.ComposeGmail("Genesis Automation Report <nwabudegeraldine@gmail.com>", toAddress);
+        SendMail.ComposeGmail("Genesis Droid Report <seamfix.test.report@gmail.com>", toAddress);
         getDriver().quit();
     }
 

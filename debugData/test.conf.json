@@ -1,92 +1,12 @@
 {
-  "login_Supervisor": {
-    "username": "jenny@yopmail.com",
-    "pw": "Bankole1!!"
-  },
-   "login_Operator": {
-    "username": "gnwabude@seamfix.com",
-    "pw": "Bankole1!!"
-  },
-   "login_Administrator": {
-    "username": "doris@yopmail.com",
-    "pw": "Bankole1!!"
-  },
-  "valid_Email_Empty_Password": {
-    "username": "jenny@yopmail.com",
-    "pw": ""
-  },
-  "valid_Email_Invalid_Password": {
-    "username": "jenny@yopmail.com",
-    "pw": "@Password"
-  },
-   "incorrect_details_format": {
-    "username": "jenny@.com",
-    "pw": "@Pass"
-  },
-  "Empty_Email_Valid_Password": {
-    "username": "",
-    "pw": "Bankole1!!"
-  },
-  "Invalid_Email_Valid_Password": {
-    "username": "oliprosper12@gmail.com",
-    "pw": "Bankole1!!"
-  },
-  "Non_Existing_Details": {
-    "username": "gt1bank@gmail.com",
-    "pw": "dfghjk"
-  },
-  "Case_Sensitive_Details": {
-    "username": "    gnwabude@seamfix.com",
-    "pw": "Bankole1!!"
-  },
-  "Change_Password": {
-    "pw": "Bankole1!!",
-    "newPw_same_as_pw": "Bankole1!!",
-    "newPassword": "Ban",
-    "invalidCurrentPassword": "pass",
-    "username": "gnwabude@seamfix.com"
-  },
-"Forgot_Password": {
-    "valid_username": "gnwabude@seamfix.com",
-    "newPw": "Bankole1!!",
-    "invalid_username": "pass",
-    "confirm_password_not_matching": "Ban23"
-  },  
-  "Child_Enrollment": {
-    "NIN": "11111111111",
-    "invalid_NIN": "2222222222"
-  }, 
-  "nigerian_Details": {
-	"surname": "Saraswati",
-	"firstname": "Joubert",
-	"middlename": "Ganga",
-	"town": "Mumbai",
-	"email": "test@yopmail.com",
-	"phone_number": "08000000000",
-	"postalcode": "746583",
-	"adress1": "Agungi",
-	"adress2": "Agege",
-	"height": "1"
+
+	"Restaurant": {
+		"searchText": "Agungi"
 	},
-	"Modification_Details": {
-	"surname": "Okafor",
-	"firstname": "Chris",
-	"middlename": "Ike",
-	"town": "Lekki",
-	"email": "test@yopmail.com",
-	"phone_number": "08030000000",
-	"postalcode": "746443",
-	"adress1": "Ajah Market",
-	"adress2": "Agungi",
-	"height": "121"
-	},
-  "Personalization": {
-    "valid_TrackingID": "MTN000000000001",
-    "invalid_TrackingID": "0PVIXSW3RTB8T",
-    "trackingID_Without_NIN": "0PVIXMMSW3RTB8T"
-  },  
-  "LandingPage_Build": {
-    "debugBuild": "debug.build",
-    "prodBuild": "prod.build"
-  }
+	
+	"LandingPage_Build": {
+		"debugBuild": "debug.build",
+		"prodBuild": "prod.build"
+	}
+	
 }
