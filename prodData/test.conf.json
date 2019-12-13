@@ -1,0 +1,6 @@
+{
+  "LandingPage_Build": {
+    "debugBuild": "debug.build",
+    "prodBuild": "prod.build"
+  }
+}

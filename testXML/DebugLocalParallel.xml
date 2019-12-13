@@ -6,7 +6,7 @@
 	<parameter name="config" value="test.conf.json" />
 	<parameter name="environment" value="chrome" />
 	<parameter name="server" value="local" />
-	<parameter name="dataEnv" value="stagingData" />
+	<parameter name="dataEnv" value="debugData" />
 
 	<test name="GenesisDroid" preserve-order="true">
         <parameter name="systemPort" value="8228"/>
@@ -18,6 +18,12 @@
                     <include name="assertWelcomePage"/>
                     <include name="viewSpecialOrders"/>
                     <include name="viewVariousMenus"/>
+                </methods>
+            </class>
+            <class name="admin.Restaurant">
+                <methods>
+                    <include name="navigateToRestaurantPage"/>
+                    <include name="viewFeaturedMeal"/>
                 </methods>
             </class>
         </classes>
